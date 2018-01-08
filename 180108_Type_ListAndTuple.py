@@ -52,3 +52,21 @@ tupleWithList[2][0] = 'C'   # Key, we cannot change elements of tuple, but we ca
 tupleWithList[2][1] = 'D'
 print('After changing tupleWithList is', tupleWithList)
 
+## sort and replace str in list
+listTest3 = ['b', 'c', 'd', 'a']
+print('listTest3 before sort():', listTest3)
+listTest3.sort() # not return value, the sort method apply to listTest3 elements
+print('listTest3 after sort():', listTest3) # check listTest3 to see result
+
+stringA = 'ABC'
+print('stringA before replace():', stringA)
+stringA.replace('A', 'a')
+print('stringA after replace():', stringA)
+
+stringB = stringA.replace('A', 'a') # think in labeling way
+print('stringB after replace():', stringB)
+
+
+
+
+
