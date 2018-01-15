@@ -2,4 +2,4 @@ import itchat
 
 itchat.auto_login()
 
-itchat.send('Hello, filehelper', toUserName='filehelper')
+itchat.send('This message send by Aaron.Zheng', toUserName='filehelper')
