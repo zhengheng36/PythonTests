@@ -14,13 +14,9 @@ def GetPrimeList(AListPrime, underCnt):
 
         # check if PrimeNum is PrimeNum
         CheckDiv = 2
-        while True:
+        while CheckDiv < PrimeNum:
             if PrimeNum % CheckDiv == 0:
                 break
-
-            if PrimeNum == CheckDiv:
-                break
-
             CheckDiv = CheckDiv + 1
 
         # record the number if it is prime

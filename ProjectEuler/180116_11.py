@@ -177,7 +177,7 @@ print('max sum sumMaxDia2:', sumMaxDia2)
 
 
 
-## Notes: take a lot of time to think about it
+## Notes: take a lot of time to think about it. Mostly, play with index
 
 
 
