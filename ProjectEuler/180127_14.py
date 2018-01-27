@@ -45,10 +45,32 @@ print(StartNum)
 
 ## the solution inspire me not to use a list, but simply record the number on the currrent chain is easier
 
+## the faster way of using number is not by while but by range(1, 1000000)
 
 ## the other way I can think of to do so is by creating a BTree
 ## if the node value is less then 1000000 than created right and left child node with value(Node*2 and (Node - 1)/3)
 ## so BTREE will stop generateing new node when current node is finally bigger than 1000000. 
 ## Then we got the answer.
+
+
+
+## Better Python Example
+# results = {}
+
+# def collatz(a):
+#     counter = 1
+#     b = a
+#     while b != 1:
+#         if b % 2 == 0:
+             counter += 1
+#             b //= 2
+#         else:
+#             counter += 1
+#             b = 3 * b + 1
+#     results[a] = counter
+
+# for c in range(1,1000000):
+#     collatz(c)
+# print(max(results, key = lambda k: results[k]))
 
 
