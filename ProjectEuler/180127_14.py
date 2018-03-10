@@ -62,7 +62,7 @@ print(StartNum)
 #     b = a
 #     while b != 1:
 #         if b % 2 == 0:
-             counter += 1
+#             counter += 1
 #             b //= 2
 #         else:
 #             counter += 1
@@ -72,5 +72,6 @@ print(StartNum)
 # for c in range(1,1000000):
 #     collatz(c)
 # print(max(results, key = lambda k: results[k]))
+
 
 
