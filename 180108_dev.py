@@ -11,4 +11,4 @@ print('d is:', d)   # // can always end up with int
 
 a = 10.998
 d = a // b
-print('d is:', d)   # // can always end up with int, not matter what will be after '.' will be discraded
+print('d is:', d)   # // can always end up with int, not matter what will be after '.' will be discraded.
