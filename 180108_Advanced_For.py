@@ -10,7 +10,7 @@ for key in dictInput:
 print("\nValues:")
 for value in dictInput.values():
     print(value)
-
+ 
 print("\nKey-Value")
 for key, value in dictInput.items():
     print(key, ' = ', value)
